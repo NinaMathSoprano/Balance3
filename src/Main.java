@@ -11,7 +11,7 @@ public class Main {
 
                     int added4 =added1 + added2;
 
-                    out.println(added1 + added2);
+                    System.out.println(added1 + added2);
                 }
 
 
