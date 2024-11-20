@@ -6,9 +6,10 @@ public class Main {
 
         int added2 = 1100;
 
-        if (added2 >= 1000) System.out.println(added1 + added2 + added2 / 100);
+        if (added2 >= 1000) {
+            System.out.println(added1 + added2 + added2 / 100);
 
-        else {
+        } else {
 
             int added4 = added1 + added2;
 
