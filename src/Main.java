@@ -2,18 +2,18 @@
 public class Main {
     public static void main(String[] args) {
 
-        int added1 = 300;
+        int addedMoney1 = 300;
 
-        int added2 = 1100;
+        int addedMoney2 = 1100;
 
-        if (added2 >= 1000) {
-            System.out.println(added1 + added2 + added2 / 100);
+        if (addedMoney2 >= 1000) {
+            System.out.println(addedMoney1 + addedMoney2 + addedMoney2 / 100);
 
         } else {
 
-            int added4 = added1 + added2;
+            int addedMoney4 = addedMoney1 + addedMoney2;
 
-            System.out.println(added1 + added2);
+            System.out.println(addedMoney1 + addedMoney2);
         }
 
 
