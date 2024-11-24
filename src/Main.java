@@ -1,19 +1,27 @@
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
 
-        int addedMoney1 = 300;
 
-        int addedMoney2 = 1100;
+        Scanner in = new Scanner(System.in);
 
-        if (addedMoney2 >= 1000) {
-            System.out.println(addedMoney1 + addedMoney2 + addedMoney2 / 100);
+        System.out.print("Введите начальную сумму: ");
+
+        int beginningSum = in.nextInt();
+        System.out.print("Введите внесённую на баланс сумму: ");
+        int addedSum = in.nextInt();
+
+
+        if (addedSum >= 1000) {
+            System.out.println(beginningSum + addedSum + addedSum / 100);
 
         } else {
 
-            int addedMoney4 = addedMoney1 + addedMoney2;
+            int endBalance = beginningSum + addedSum;
 
-            System.out.println(addedMoney1 + addedMoney2);
+            System.out.println(endBalance);
+
         }
 
 
